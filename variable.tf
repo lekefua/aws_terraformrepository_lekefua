@@ -15,7 +15,7 @@ variable "instance_type"{
     type =string
     default="t3.micro"
 }
-variable "vpc_name" {
+variable "vpc_evaristus" {
   description = "vpc_evaristus"
 }
 
