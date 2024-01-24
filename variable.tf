@@ -15,3 +15,10 @@ variable "instance_type"{
     type =string
     default="t3.micro"
 }
+variable "vpc_name" {
+  description = "vpc_evaristus"
+}
+
+variable "cidr_block" {
+  description = "CIDR block for the VPC"
+}
